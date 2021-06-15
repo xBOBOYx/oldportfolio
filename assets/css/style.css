@@ -14,6 +14,7 @@ header {
     padding: 0px;
     background-color: orchid;
 
+
 }
 
 nav {
@@ -47,7 +48,6 @@ nav ul li {
 header h2 {
     width: fit-content;
     color: red;
-    background-color: yellow;
     font-size: 36px;
 }
 
@@ -68,8 +68,7 @@ header figure {
     justify-content: left;
     margin: 10px;
     flex: 1 1;
-    border-right-style: 5px solid black;
-    background-color: gray;
+    border-right: palegoldenrod solid 20px;
 }
 
 .containerL-1 {
@@ -89,10 +88,50 @@ header figure {
 }
 
 .containerR {
-    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
     margin: 10px;
     border: 5px solid orange;
     background-color: gray;
+}
+
+.box1 {
+    width: 88%;
+    height: 200px;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.activebox1 {
+    width: 88%;
+    height: 200px;
+    margin: 2%;
+    background-image: url(/assets/images/pexels-suzy-hazelwood-1629236.jpg);
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.activebox1:hover{
+    background-image: url(/assets/images/Gif-Swamp\ of\ The\ Dead.gif);
+}
+.activebox1 {
+    width: 88%;
+    height: 200px;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
+}
+.box2 {
+    width: 40%;
+
+    height: 100px;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
 }
 
 .containerR-1 {
@@ -104,6 +143,8 @@ header figure {
     min-width: 50px;
     min-height: 100px;
 }
+
+
 
 .containerR-3 {
     min-width: 50px;
@@ -125,6 +166,19 @@ footer h4 {
 @media screen and (max-width:768px) {
 
     header h2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav h2 {
         display: none;
     }
 
@@ -136,7 +190,7 @@ footer h4 {
         display: none;
     }
 
-    header figure {
+    figure {
         display: flex;
         background-color: green;
         color: brown;
