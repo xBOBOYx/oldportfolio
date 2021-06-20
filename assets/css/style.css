@@ -49,7 +49,7 @@ nav ul li {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/pexels-suzy-hazelwood-1629236.jpg");
+    background-image: url("/assets/images/pexels-suzy-hazelwood.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -124,7 +124,7 @@ div img {
 }
 /* hover to reveal game gif */
 .activebox1:hover {
-    background-image: url(/assets/images/gif-Swamp-of-The-Dead.gif);
+    background-image: url(/assets/images/swamp-of-the-dead.gif);
 }
 /* Horiseon Project image */
 .box2 {
