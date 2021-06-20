@@ -21,4 +21,4 @@ https://xboboyx.github.io/portfolio/
 
 Portfolio Page
 
-![](assets/images/Demo.png)
+![](assets/images/demo-page.png)
