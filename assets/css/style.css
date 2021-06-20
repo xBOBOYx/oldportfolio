@@ -118,13 +118,13 @@ div img {
     height: 300px;
     margin-right: 20px;
     border-radius: 25px;
-    background-image: url(/assets/images/Screen\ Shot\ 2021-06-14\ at\ 10.57.07\ PM.png);
-    background-size:cover;
+    background-image: url(/assets/images/sotd.png);
+    background-size: cover;
     cursor: pointer;
 }
 /* hover to reveal game gif */
 .activebox1:hover {
-    background-image: url(/assets/images/Gif-Swamp\ of\ The\ Dead.gif);
+    background-image: url(/assets/images/gif-Swamp-of-The-Dead.gif);
 }
 /* Horiseon Project image */
 .box2 {
@@ -146,11 +146,11 @@ div img {
     margin-right: 20px;
     border-radius: 25px;
     background-size: cover;
-    background-image: url(/assets/images/Screen\ Shot\ 2021-06-18\ at\ 9.32.02\ PM.png);
+    background-image: url(/assets/images/github.png);
 }
 
 .box3:hover{
-    background-image: url(/assets/images/Screen\ Shot\ 2021-06-18\ at\ 9.32.02\ PM.png);
+    background-image: url(/assets/images/github.png);
 }
 /* Remove markers from Contact list  */
 div ul {
