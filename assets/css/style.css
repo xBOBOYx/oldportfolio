@@ -1,82 +1,78 @@
+/* Universal  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Scroll */
 html {
     scroll-behavior: smooth;
 }
 
+/* Affects all anchor in grid */
 a {
-    color: black;
-    text-decoration: none;
-    width: 100%;
-    height: 250px;
-    margin: 2%;
-    border-radius: 25px;
+width: 100%;
+text-decoration: none;
 }
 
+/* Header Padding and Margin */
 header {
     margin: 0px;
     padding: 0px;
-    
 }
 
-
-
+/* Titles for sections in Media Query */
 h5 {
 
     display: none;
 }
-
+/* Navigation bar at top of page */
 nav {
-    float: right;
+    float:right;
     margin-top: -20px;
     margin-right: 20px;
-
-
 }
-
+/* Took off bullets for list */
 nav ul {
     list-style-type: none;
-    margin: -20px;
 }
-
+/* Changes attributes of Nav */
 nav ul li {
     margin-left: 25px;
     display: inline-block;
     font-size: 36px;
+    color: rgb(234, 210, 172);
+    background-color: rgb(66, 129, 164);
 }
-
+/* Banner Image */
 .snorlax {
-    height: 350px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
+    background-image: url("/assets/images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* Changes Anthony Zamora */
 header h2 {
-    
-    color: red;
-    font-size: 36px;
+    font-size: 66px;
+    background-color: rgb(66, 129, 164);
+    color: rgb(234, 210, 172);
 }
-
-
-header figure {
-    display: none;
+/* About me picture */
+div img {
+    height: 50%;
+    width: 50%;
+    align-content: center;
 }
-
-
+/* Used grid layout for page */
 .gridcontainer {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%);
 
 }
-
+/* Overall left container attributes */
 .containerL {
     justify-content: left;
     margin: 8px;
@@ -91,7 +87,7 @@ header figure {
     min-height: 100px;
     font-size: 6em;
     text-align: left;
-    text-justify: auto;
+   
 }
 
 /* Portfolio*/
@@ -100,6 +96,7 @@ header figure {
     min-height: 100px;
     font-size: 6em;
     text-align: left;
+    flex-shrink: unset;
 }
 
 /*Contact*/
@@ -109,122 +106,123 @@ header figure {
     font-size: 6em;
     text-align: left;
 }
-
+/* Overall right container */
 .containerR {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5px;
+    justify-content: center;
 }
-
+/* First image in porfolio */
 .activebox1 {
     width: 100%;
-    height: 250px;
-    margin: 2%;
+    height: 300px;
+    margin-right: 20px;
     border-radius: 25px;
-    background-image: url(/assets/images/Screen\ Shot\ 2021-06-14\ at\ 10.57.21\ PM.png);
-    background-size: cover;
+    background-image: url(/assets/images/Screen\ Shot\ 2021-06-14\ at\ 10.57.07\ PM.png);
+    background-size:cover;
     cursor: pointer;
 }
-
+/* hover to reveal game gif */
 .activebox1:hover {
     background-image: url(/assets/images/Gif-Swamp\ of\ The\ Dead.gif);
 }
-
+/* Horiseon Project image */
 .box2 {
-    width: 0%;
+    width: 100%;
     height: 200px;
-    margin: 20px;
-    flex: 0 0 250px;
+    margin-right: 20px;
     border-radius: 25px;
-}
-
-.box3{
-    width: 0%;
-    height: 150px;
     background-size: cover;
-    background-position: center;
-    flex: 0 0 175px;
+    background-image: url(/assets/images/digital-marketing-meeting.jpg);
+}
+.box2:hover{
+    background-image: url(/assets/images/digital-marketing-meeting.jpg);
+
+}
+/* Github Image */
+.box3 {
+    width: 100%;
+    height: 200px;
+    margin-right: 20px;
     border-radius: 25px;
+    background-size: cover;
+    background-image: url(/assets/images/Screen\ Shot\ 2021-06-18\ at\ 9.32.02\ PM.png);
 }
 
+.box3:hover{
+    background-image: url(/assets/images/Screen\ Shot\ 2021-06-18\ at\ 9.32.02\ PM.png);
+}
+/* Remove markers from Contact list  */
+div ul {
+    list-style-type: none;
+}
+/* About me container */
 .containerR-1 {
     min-width: 50px;
     min-height: 100px;
     font-size: 20px;
     margin: 30px;
 }
-
+/* Portfolio Container */
 .containerR-2 {
     min-width: 50px;
     min-height: 100px;
 }
 
-
-
+/* Contact Containger */
 .containerR-3 {
     min-width: 50px;
     min-height: 100px;
-    
+    font-size: 36px;
+    list-style-type: none;
+
 }
 
+/* Bottom footer */
 footer {
     display: flex;
-    background-color: orchid;
-
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer h4 {
     color: brown;
-    background-color: green;
-
+    margin-top: 40;
+    font-size: 36px;
+    text-align: center;
 }
 
+footer h4 img {
+    margin: -12px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+/* Responsive layout */
 @media screen and (max-width:768px) {
 
-    header h2{
+    /*Responsive layout Anthony Zamora */
+    header h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 66px;
+    }
+    /* Responsive layout container titles */
+    h5 {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 36px;
     }
-    h5 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 24px;
-    
-    }
-    nav {
-        display: none;
-    }
-    div {
-        display: none;
-    }
 
-    figure {
-        display: flex;
-        background-color: green;
-        color: brown;
-    }
-
+    /* Responsive layout grid */
     .gridcontainer {
         grid-template-columns: 100%;
         grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%);
-
-    }
-
-    .buttlinks {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .imgbutt {
-        max-width: 28%;
-        justify-content: space-between;
     }
 
     .containerL {
@@ -233,16 +231,13 @@ footer h4 {
 
     .containerR {
         justify-self: center;
-        border: 5px solid orange;
-        background-color: gray;
+        border: 5px solid rgb(66, 129, 164);
+        
     }
-
-
     .containerR-1 {
 
         width: 100%;
         min-height: 100px;
-
     }
 
     .containerR-2 {
