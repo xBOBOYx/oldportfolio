@@ -118,7 +118,7 @@ div img {
     height: 300px;
     margin-right: 20px;
     border-radius: 25px;
-    background-image: url(/assets/images/sotd.png);
+   background-image: url(/assets/images/sotd.png);
     background-size: cover;
     cursor: pointer;
 }

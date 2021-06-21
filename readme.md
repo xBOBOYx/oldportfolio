@@ -1,4 +1,4 @@
-My first portfolio page. I can't wait to come back and look at this.
+My first portfolio page.
 
 Acceptance Criteria:
 
