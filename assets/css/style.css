@@ -49,7 +49,7 @@ nav ul li {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/pexels-suzy-hazelwood.jpg");
+    background-image: url("../images/pexels-suzy-hazelwood.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -118,13 +118,13 @@ div img {
     height: 300px;
     margin-right: 20px;
     border-radius: 25px;
-   background-image: url(/assets/images/sotd.png);
+    background-image: url(../images/sotd.png);
     background-size: cover;
     cursor: pointer;
 }
 /* hover to reveal game gif */
 .activebox1:hover {
-    background-image: url(/assets/images/swamp-of-the-dead.gif);
+    background-image: url(../images/swamp-of-the-dead.gif);
 }
 /* Horiseon Project image */
 .box2 {
@@ -133,10 +133,10 @@ div img {
     margin-right: 20px;
     border-radius: 25px;
     background-size: cover;
-    background-image: url(/assets/images/digital-marketing-meeting.jpg);
+    background-image: url(../images/digital-marketing-meeting.jpg);
 }
 .box2:hover{
-    background-image: url(/assets/images/digital-marketing-meeting.jpg);
+    background-image: url(../images/digital-marketing-meeting.jpg);
 
 }
 /* Github Image */
@@ -146,11 +146,11 @@ div img {
     margin-right: 20px;
     border-radius: 25px;
     background-size: cover;
-    background-image: url(/assets/images/github.png);
+    background-image: url(../images/github.png);
 }
 
 .box3:hover{
-    background-image: url(/assets/images/github.png);
+    background-image: url(../images/github.png);
 }
 /* Remove markers from Contact list  */
 div ul {
