@@ -61,7 +61,7 @@ header h2 {
 }
 /* About me picture */
 div img {
-   
+    height: 50%;
     width: 50%;
     align-content: center;
 }
